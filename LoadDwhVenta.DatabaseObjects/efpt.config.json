@@ -1,0 +1,98 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "NorthwindContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": "Entities",
+   "OutputContextPath": "Context",
+   "OutputPath": "ModelsDwVentas",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "LoadDwhVenta.DatabaseObjects",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 3,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[DimCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DimCustomers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DimDate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DimEmployee]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DimProduct]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DimShippers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FactClientesAtendidos]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[FactOrders]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CleanData]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[LoadCategories]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[LoadCustomers]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[LoadEmployees]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[LoadProducts]",
+         "ObjectType": 1
+      },
+      {
+         "Name": "[dbo].[LoadShippers]",
+         "ObjectType": 1
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": true,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}
